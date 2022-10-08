@@ -1,5 +1,11 @@
 function convertToRoman(num) {
-    return num;
+    let result = "";
+
+    while (num > 0) {
+        result += "I";
+        num -= 1;
+    }
+    return result;
 }
 
-convertToRoman(36)
+console.log(convertToRoman(3))
