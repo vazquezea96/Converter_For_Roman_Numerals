@@ -30,7 +30,7 @@ function convertToRoman(num) {
     return converter.result;
 }
 
-console.log(convertToRoman(1776))
+console.log(convertToRoman(1996))
 
 
 
